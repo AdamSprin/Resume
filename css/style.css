@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    background: Beige;
+    color: black;
+}
+
+/* INFO */
+
+.container {
+    margin: auto;
+    max-width: 750px;
+    padding-top: 18px;
+
+}
+
+.avatar {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    width: 200px;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: blue;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.info-text h1 {
+    margin: 0 0 8px 0;
+}
+
+.info-text p {
+    color: grey;
+    margin: 0;
+}
+
+.info-text h3 {
+    margin-bottom: 8px;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 5px 5px;
+    border: 0px;
+    margin: 0 0 14px 0;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.card h2 {
+    margin: 8px 0 12px 5px;
+}
+
+.bg-BlanchedAlmond {
+    background: BlanchedAlmond
+}
+
+.bg-Bisque {
+    background: Bisque;
+}
+
+.list {
+    padding: 8px 0 12px 28px;
+    margin: 0;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+    padding-left: 8px;
+}
+
+table td:nth-child(2) {
+    color: grey;
+}
+
+table td:nth-child(3) {
+    color: grey;
+}
+
+/* FORM  */
+
+.btn {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+    font-family: Montserrat;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    font-size: 1rem;
+}
+
+.btn:active {
+    background-color: red;
+    color: black;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    width: 50%;
+    margin-right: 20px;
+    /* width: 46% */
+    /* display: inline-block; */
+
+}
+
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width: 650px) {
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        margin-right: 0;
+        margin-bottom: 12px;
+        width: 100%;
+    }
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    color: black;
+    padding: 15px 0 10px 0;
+    outline: none;
+    font-family: Montseratt;
+}
